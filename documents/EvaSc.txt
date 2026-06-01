@@ -1,0 +1,116 @@
+COURSEBOOK
+UT DALLAS LOGIN
+Web Applications and Technology - Student Course Feedback
+Student Course Feedback
+
+The Universal Evaluation System (UES) is UT Dallas' tool for student course feedback. As of Fall 2013, online student course feedback surveys are mandatory for all undergraduate and graduate classes with 5 or more students. To protect students’ privacy, no institutional-level course feedback surveys will be enabled for any course with fewer than 5 students in adherence to Texas statutory regulations. Student Course Feedback survey responses are anonymous. Student Course Feedback results are publicly available on CourseBook; however, student comments are not publicly available.
+
+Summer 2026 Student Course Feedback Important Dates
+Summer 2026 Term	Regular Session/
+11 Week Session	8-Week Session	First 5-Week Session	Second 5-Week Session
+Classes Begin	6/01/26	6/08/26	6/01/26	7/08/26
+Course Evaluations Open	7/24/26	7/08/26	6/17/26	7/24/26
+Course Evaluations Close	8/14/26	7/28/26	7/07/26	8/14/26
+Final Exams	8/13/26-8/14/26	7/27/26-7/28/26	7/6/26-7/7/26	8/13/26-8/14/26
+Exception Request Deadline	7/21/26	7/1/26	6/15/26	7/21/26
+Reports Generated	8/18/26	8/18/26	8/18/26	8/18/26
+
+*Please email wat@utdallas.edu to obtain information for the mini-session dates. See the full Academic Calendar for additional information.
+
+Provide Your Feedback Now!
+
+Want to submit your feedback now? Log in and we'll show you every feedback form that's currently available to you and whether you've completed it. (You can even go back and change a submitted feedback form if you need to.)
+
+Login to Complete the Student Course Feedback
+
+Not finding surveys for all of your classes? Here's why
+
+All classes are not automatically scheduled for student course feedback. Only organized classes with 5 or more students are surveyed. Lab courses are excluded from feedback surveys, unless they are combined lecture/lab courses or core curriculum courses, due to Texas statutory regulations. Instructors of record may request to have their lab courses surveyed. Most independent study, thesis, dissertation, internship, practicum, seminar, and research classes are excluded from automatic feedback surveys. Instructors of these particular classes which are not surveyed by default may request an exception by email. OISDS will determine whether course feedback will be enabled. Please be advised that course feedback will not be enabled for any course when there are 4 or fewer students due to lack of anonymity.
+
+Viewing Grades
+
+IMPORTANT: VIEWING YOUR GRADE IN COURSEBOOK FOR A COURSE WILL LOCK ITS FEEDBACK
+
+Complete your feedback BEFORE viewing your grade if you wish to submit feedback for a course.
+
+Students can view their official grades in Orion, the University's official source, when they have been posted according to the published academic calendar. Students may also view their unofficial grades in CourseBook; they can also view unofficial grades in eLearning until they lose access to their course(s) which will happen one day before the new semester starts.
+
+UES Response Rate - Spring 2026
+
+33%
+49%
+23%
+31%
+49%
+20%
+29%
+28%
+AHT
+BBS
+ECS
+EPPS
+HONS
+IS
+JSOM
+NSM
+
+Email Based Class Feedback
+
+Students will be invited to provide their feedback for their classes via an email which will be sent to their UT Dallas official email addresses from the UES system. Each email is personally generated for the recipient and contains a web address (URL) which will link directly to the course feedback page. Just click the link embedded in the email to start the process and no login is required.
+
+Frequently Asked Questions
+Are student feedback surveys anonymous if my instructor can see that I've submitted my comments?
+
+Yes, they are anonymous; there is no link between a submitted feedback and a particular student. Instructors can see that a student has provided their feedback, but only after a minimum of five other students in the class have as well, and they are never able to see which form was filled out by which student.
+
+With that said, if a student enters personally identifying information in the comments section within the feedback form, the instructor will know who submitted that individual comment.
+
+Why are the feedback questions the same for all classes?
+
+The questions used in the feedback are mandated by the State of Texas. If there is information you would like to add that is not included in the questionnaire, please include it in the comments section.
+
+The feedback questions are not useful for students. Can you change the questions?
+
+Unfortunately, we can't change the questions asked in the upper portion of the form. The State of Texas mandates that certain questions are asked. Don't be discouraged though! At the end of the form is a section for leaving comments. If you have anything to add that isn't covered by the other questions, add it in the comments section.
+
+I didn't get the student course feedback email. Can I still submit my feedback?
+
+Yes, during the open window period. Click the Provide Your Feedback Now button. Once you have logged in, you will see a list of links to your class feedback surveys. Click the links to open the class feedback form and get started.
+
+Can I change my student course feedback response after I've submitted it?
+
+Yes, during the open window period. Click the Provide Your Feedback Now button. Once you have logged in, you will see a list of links to your class feedback forms. When feedback has been submitted, it will appear grayed out and have a checkmark, but it is still clickable. Click the class for which you want to modify your response and click the link on the next page to “unsubmit” it. The form will reopen and allow you to make changes. Click the "Provide Your Feedback Now" button when you are done.
+
+How do I check if I've completed all my feedback?
+
+Click the Provide Your Feedback Now button. Once you have logged in, you will see a list of your classes that are open for comments. If all the classes are grayed out and have a checkmark, you have completed all your feedback.
+
+There is one caveat: students that were enrolled in an 8-week session during the semester must also have completed all of their feedback for those classes during their evaluation periods. This doesn't apply to the majority of students, so if the term "first 8-week session" doesn't mean anything to you, you most likely aren't affected.
+
+I missed the deadline to complete my feedback. Can you reopen the student course feedback?
+
+Unfortunately, no. Once the course feedback period closes, it cannot be reopened to accommodate students who missed the deadline. Check the student course feedback calendar to ensure that you complete your feedback on time.
+
+Viewing Student Course Feedback Results
+
+All results are publicly available in CourseBook. However, student comments will not be publicly available. School administrators may contact Web Applications and Technology to learn about the UES Reporter - an alternate way to access results.
+
+Generally, instructors of record will have access to the full results, with two exceptions:
+
+Instructors of record who resigned from UT Dallas will not have access.
+Graduate students who serve as teaching assistants will not have access to other students’ feedback data.
+Need Help? Have Suggestions? Report an Issue or Concern?
+Contact the Web Applications and Technology Team
+
+Please use the Feedback Form.
+
+UES Student Course Feedback
+Student Course Feedback Home
+Online Student Course Feedback - Overview
+Related Sites
+SACSCOC Accreditation
+Office of the Provost
+UT Dallas
+OISDS
+UES Support
+Privacy Policy

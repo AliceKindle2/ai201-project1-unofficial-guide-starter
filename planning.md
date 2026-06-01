@@ -100,11 +100,11 @@ cover that gap without sacrificing much accuracy.
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | Who is the worst professor for Operating Systems? | Based off of several reviews, Yen I-Ling is considered the worst Operating Systems professor |
-| 2 | What are the prerequisite for Calculus II? | A C or higher in Calculus I |
-| 3 | How many professors are teaching Pre-Calc? | Only one professor is teaching Pre-Calc |
-| 4 | | |
-| 5 | | |
+| 1 | Who is the worst professor for Operating Systems? | Based off of several reviews, [Professor Name] is considered the worst Operating Systems professor |
+| 2 | What are the prerequisite for Calculus II? | A C or higher in [Course] |
+| 3 | How many professors are teaching Pre-Calc? | Only one professor is teaching Pre-Calc, [Professor name] |
+| 4 | How does one sign up for EPICS? | Students can sign up for EPICS using course registration when their registration period opens. |
+| 5 | Who are the top teachers for [Course]? | The top professors for [Course] is [Professor Name] and [Professor Name] |
 
 ---
 
@@ -128,7 +128,7 @@ cover that gap without sacrificing much accuracy.
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
 
----
+![Diagram](image.png)
 
 ## AI Tool Plan
 
@@ -143,7 +143,44 @@ cover that gap without sacrificing much accuracy.
      with my specified chunk size and overlap" is a plan. -->
 
 **Milestone 3 — Ingestion and chunking:**
+Tool: Claude
+Input: The chunking strategy section (200–300 chars, no overlap,
+sentence-boundary splits) plus a sample of raw UTD review text
+scraped from Rate My Professor and UTDgrades.
+Expected output: A working scraper.py that fetches review pages
+and a chunk_text() function that splits on sentence boundaries,
+returns chunks of 200–300 characters, and attaches source metadata
+(site name, professor name, course).
+Verification: Run chunk_text() on 10 sample reviews and manually
+confirm no chunk exceeds 300 characters, no chunk cuts mid-sentence,
+and metadata fields are populated on every chunk.
 
 **Milestone 4 — Embedding and retrieval:**
+Tool: Claude
+Input: The embedding model section (all-MiniLM-L6-v2, top-k=5)
+plus the chunk_text() output schema from Milestone 3.
+Expected output: An embed_and_store() function that encodes each
+chunk with sentence-transformers and indexes it in FAISS, and a
+retrieve() function that takes a query string and returns the top 5
+most similar chunks with their metadata.
+Verification: Query retrieve() with "easy grader CS professor" and
+manually confirm the 5 results are semantically relevant and each
+result includes source metadata. Run at least 3 different queries
+and check that cosine similarity scores are non-zero and ordered
+highest to lowest.
 
 **Milestone 5 — Generation and interface:**
+Tool: Claude
+Input: The full pipeline spec (all five stages), the retrieve()
+function signature from Milestone 4, and a prompt template
+requirement: answers must cite which site and professor each claim
+comes from.
+Expected output: A generate_response() function that passes the
+top 5 retrieved chunks as context into a GPT-4o or claude-sonnet
+call with a system prompt enforcing citation, plus a minimal CLI
+or Streamlit interface where a user can type a question and receive
+a cited answer.
+Verification: Ask three real questions ("Who are the easiest CS
+professors at UTD?", "Which courses are hardest?", "Is professor X
+a good lecturer?") and confirm each answer includes at least one
+citation traceable back to a real chunk in the index.
